@@ -1,0 +1,8 @@
+---
+- hosts: testservers
+  vars_files:
+    - group_vars/servers.yml
+
+  roles:
+    - { role: GROG.user, become: yes } # creates or deletes users depening on variables in servers.yml
+    - { role: GROG.authorized-key, become: yes } # adds user's key to authorized key

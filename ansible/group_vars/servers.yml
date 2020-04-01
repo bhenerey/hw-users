@@ -1,0 +1,10 @@
+user_list_group:
+    - name: agent_smith
+      state: present #used to create a user
+    - name: mr_anderson
+      state: absent #used to delete a user
+
+authorized_key_list:
+    - name: agent_smith
+      authorized_keys:
+        - key: "{{ lookup('file', '../id_rsa.pub') }}"

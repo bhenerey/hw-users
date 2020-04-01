@@ -1,0 +1,10 @@
+---
+    - hosts: testservers
+    
+      tasks:
+        - name: view users
+          command: getent passwd
+          register: users
+        - debug: msg="{{ users.stdout }}"
+
+            
