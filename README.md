@@ -1,6 +1,7 @@
 # hw-users
 
-## Requirements / Background
+Requirements / Background
+====
 
 Create a command line application that when provided with user information and a public ssh key would create the user on a specified host.
 
@@ -21,7 +22,9 @@ Create a command line application that can remove a user from a host.
 
 ### Step 3 - Discuss the differences between the two solutions including Pros/Cons
 
-## Examples
+
+STEP 1 DETAILS
+====
 
 ### Help
 
@@ -69,3 +72,10 @@ Deleting user bhenerey4
 Please type bhenerey4 to confirm account deletion:  bhenerey4
 Deleting bhenerey4 ..
 ```
+
+
+
+STEP 2 DETAILS
+====
+
+[README](ansible/README.md)
