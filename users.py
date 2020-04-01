@@ -125,3 +125,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    # TODO: needs plenty of error handling
+    # TODO: I'm aware the functions aren't very DRY and the ssh connection could be moved to it's own function. 
