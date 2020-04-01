@@ -14,8 +14,6 @@ Create a command line application that can remove a user from a host.
 
 1. create user
    - include setting their ssh key
-   - add users to admin group
-   - ensure admin group has sudo priveleges
 2. view user
 3. delete user
 
